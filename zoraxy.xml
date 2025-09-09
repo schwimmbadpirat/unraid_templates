@@ -39,7 +39,7 @@ Docker: https://hub.docker.com/r/zoraxydocker/zoraxy/</Overview>
   <Config Name="Container Path 1" Target="/opt/zoraxy/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/zoraxy</Config>
   <Config Name="HTTP (tcp)" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">80</Config>
   <Config Name="HTTP (udp)" Target="80" Default="80" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">80</Config>
-  <Config Name="HTTPS (tcp)" Target="443" Default="443" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
+  <Config Name="HTTPS (tcp)" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
   <Config Name="HTTPS (udp)" Target="443" Default="443" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
   <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <TailscaleStateDir/>
