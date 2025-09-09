@@ -42,5 +42,6 @@ Docker: https://hub.docker.com/r/zoraxydocker/zoraxy/</Overview>
   <Config Name="HTTPS (tcp)" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
   <Config Name="HTTPS (udp)" Target="443" Default="443" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
   <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Docker SOCKET" Target="/var/run/docker.sock" Default="" Mode="ro" Description="Docker SOCKET for 'Pick from container' feature" Type="Path" Display="always" Required="true" Mask="false">/var/run/docker.sock</Config>
   <TailscaleStateDir/>
 </Container>
